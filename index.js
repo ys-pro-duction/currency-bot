@@ -31,7 +31,7 @@ bot.command('start', async (ctx) => {
     }
 })
 
-bot.telegram.setWebhook(`https://5d5a-217-23-3-171.ngrok-free.app/bot`).then((data)=>{
+bot.telegram.setWebhook(`https://currency-bot-plum.vercel.app//bot`).then((data)=>{
     console.log(data)
 }).catch((err)=>{
     console.log(err)
